@@ -10,6 +10,11 @@
       "StackName": "amplify-busplusaws-dev-151302",
       "StackId": "arn:aws:cloudformation:us-west-2:872567300025:stack/amplify-busplusaws-dev-151302/285c1c90-99e1-11ed-8c3b-0a4d2ddcc791",
       "AmplifyAppId": "d14kcydovxntob"
+    },
+    "categories": {
+      "auth": {
+        "busplusaws8b5d3cac": {}
+      }
     }
   }
 }
