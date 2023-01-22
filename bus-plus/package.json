@@ -11,6 +11,8 @@
     "aws-amplify": "^5.0.11",
     "framer-motion": "^8.5.0",
     "react": "^18.2.0",
+    "react-circular-progressbar": "^2.1.0",
+    "react-credit-card-flipping": "^1.0.22",
     "react-dom": "^18.2.0",
     "react-icons": "^4.7.1",
     "react-scripts": "5.0.1",
@@ -39,5 +41,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "devDependencies": {
+    "babel-plugin-jsx-control-statements": "^4.1.2"
+  },
+
+  "plugins": ["jsx-control-statements"]
 }

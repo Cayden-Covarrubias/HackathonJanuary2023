@@ -1,0 +1,81 @@
+.box-type{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(175deg, rgba(0,26,31,1) 14%, #FFD659 100%);
+    box-shadow: 0px 1px 10px black;
+    justify-content: center;
+    display: grid;
+    justify-content: center;
+}
+
+.card{
+    margin-top: 30%;
+    display: grid;
+    width: 300px;
+    height: 480px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+img{
+    display: grid;
+    background: white;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    transform: translate(95px,45px);
+    justify-content: center;
+    padding: auto;
+    margin-right: 20%;
+    background-color: bisque;
+
+}
+.lower-content{
+    box-sizing: border-box;
+    position: relative;
+    display:grid;
+    justify-content: space-around;
+    padding: auto;
+}
+
+.name{
+position: relative;
+display: grid;
+width: fit-content;
+height: 50px;
+justify-content: space-around;
+background: #FCFCFC;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+align-content: center;
+background-color: bisque;
+}
+
+.pointsDis{
+    position: relative;
+    display: grid;
+    width: fit-content;
+    height: 50px;
+    justify-content: space-around;
+    background: #FCFCFC;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    align-content: center;
+    background-color: bisque;
+
+    }
+
+.payment{
+      position: relative;
+       display: grid;
+       width: fit-content;
+        height: 50px;
+        justify-content: space-around;
+        background: #FCFCFC;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 10px;
+        align-content: center;
+        background-color: bisque;
+
+}    
+
