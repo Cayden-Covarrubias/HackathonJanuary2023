@@ -1,7 +1,0 @@
-.navBar{
-    background: rgba(0, 0, 0, 0.3);
-    list-style: none;
-    display: inline;
-    flex-direction: row;
-    justify-content: space-around;
-}

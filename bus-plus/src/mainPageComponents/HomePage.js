@@ -1,20 +1,12 @@
 import React from 'react'
-import CheckIn from './CheckIn'
-import Navbar from './Navbar'
-import ProgressGuage from './ProgressGuage'
-import Redeem from './Redeem.js'
+import Navbar from './Navbar.js';
 import "./HomePage.css";
 function HomePage() {
   return (
     <div className="homePage">
-    <div className='container'>
-        <ProgressGuage className= "gauge"/>
-        <CheckIn className="check-in"/>
-        <Redeem className= "Redeem"/>
-        <div className = "navBar">
-        <Navbar />
-        </div>
-    </div>
+    <button className='check-in'><h1>Check-in</h1></button>
+    <button className='Redeem'><h1>Redeem PTS</h1></button>
+    <Navbar/>
     </div>
   )
 }
