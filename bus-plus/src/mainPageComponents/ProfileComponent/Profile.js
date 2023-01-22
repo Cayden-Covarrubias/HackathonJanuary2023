@@ -19,9 +19,9 @@ function Profile() {
                alt="" height="100px" width="100px" initial = {{scale: 0.7}}></motion.img>
         </div>
         <div className='lower-content'>
-            <h3 className='name'>Name</h3>
-            <h1 className='pointsDis'>Points: </h1>
-            <motion.h5 className='payment' whileHover={{scale: 1.5, boxShadow: '0px 10px 20px #89CFF0' }} onClick={payments} initial = {{scale: 1}}>Add payment method</motion.h5>
+            <h3 className='name'>Name: User Name</h3>
+            <h1 className='pointsDis'>Total Points: 650</h1>
+            <motion.h5 className='payment' whileHover={{scale: 1.5, boxShadow: '0px 10px 20px #89CFF0' }} onClick={payments} initial = {{scale: 1}}>Add your payment method</motion.h5>
             
         </div>
     </div>

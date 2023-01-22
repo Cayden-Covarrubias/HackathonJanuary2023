@@ -1,6 +1,6 @@
 import React,{useState} from 'react'
 import './App.css';
-import HomePage from './mainPageComponents/HomePage';
+//import HomePage from './mainPageComponents/HomePage';
 //import Profile from './mainPageComponents/ProfileComponent/Profile';
 import Navbar from './mainPageComponents/Navbar.js'
 //import Payment from './mainPageComponents/ProfileComponent/Payment';
@@ -51,7 +51,6 @@ function App() {
       </form>
     </div>:
     <div>
-      <HomePage/>
       <Navbar />
           </div>}
     </div>
