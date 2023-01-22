@@ -1,9 +1,9 @@
 import React from 'react'
-
+import "./redeem.css";
 function Redeem() {
   return (
     <div>
-        <h2>Redeem your Points</h2>
+        <button className='redeem'>Redeem your Points</button>
     </div>
   )
 }

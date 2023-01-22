@@ -1,18 +1,19 @@
 import React from 'react'
-import CheckIn from './CheckIn';
-import ProgressGuage from './ProgressGuage';
-import Redeem from './Redeem';
-//import Scan from './Scan';
+import "./NavBar.css"
+import {HiHome} from 'react-icons/hi';
+import {BsBookHalf} from 'react-icons/bs';
+import {HiOutlineInformationCircle} from 'react-icons/hi';
+
 function Navbar() {
 
-    const list = ["Book","Home", "information"];
+    //const list = ["Book","Home", "information"];
   return (
     <div>
-    <ProgressGuage/>
-    <CheckIn/>
-    <Redeem/>
-       <ul>
-        {list.map((listData)=>{return(<li key = {listData}>{listData}</li>)})}
+       <ul className='list'>
+        {/*{list.map((listData)=>{return(<li key = {listData} className="navBar">{listData}</li>)})}*/}
+        <li className='navBar'><BsBookHalf/></li>
+        <li className='navBar'><HiHome/></li>
+        <li className='navBar'><HiOutlineInformationCircle/></li>
        </ul>
     </div>
   )

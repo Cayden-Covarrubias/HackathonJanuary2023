@@ -1,9 +1,10 @@
-import React from 'react'
-
+import React from 'react';
+import "./checkin.css";
 function CheckIn() {
   return (
     <div>
-    <h1>Check-in</h1></div>
+    <button className='checkin'>Check-in</button>
+    </div>
   )
 }
 
